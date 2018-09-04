@@ -1,5 +1,7 @@
 const produceDrivingRange = function(trip){
   return function(blockRange){
-    return trip
+    if (trip > blockRange) {
+      '2 block out of range'
+    }
   }
 }
