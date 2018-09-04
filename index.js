@@ -1,5 +1,5 @@
 const produceDrivingRange = function(trip){
   return function(blockRange){
-    return blockRange - trip
+    return blockRange
   }
 }
